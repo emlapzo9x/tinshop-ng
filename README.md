@@ -54,6 +54,10 @@ Some of the new features implemented so far:
 - You can now rename unidentified content to one that meet the naming scheme's requiremnets for faster next time processing. 
 - Implemented some features and functions from the popular `Switch-library-manager`
 - Tested on rclone mount with more than 10K titles. processing with titles matching the name schemes in almost 10 sec.
+- Store Authentication using http basic auth either with `forwardAuth` or a built-in Http auth. 
+- Protection against forged requests using `Hauth`.
+- Basic protection against external downloads other than tinfoil.
+- and more
 
 # ⚠️ Disclaimer
 
